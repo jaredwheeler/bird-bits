@@ -1,0 +1,41 @@
+[
+    {
+        "id": "1",
+        "partNumber": "12674FD4536",
+        "manufacturer": "Panasonic",
+        "partValues":{
+            "displayValue": 0.1,
+            "displayUnit": "uF",
+            "normalizedValue": 0.0001
+        },
+        "stock": 14,
+        "caseCode": "1210",
+        "type": "audioCap"
+    },
+    {
+        "id": "B",
+        "partNumber": "234BE-34536",
+        "manufacturer": "TDK",
+        "partValues":{
+            "displayValue": 0.01,
+            "displayUnit": "nF",
+            "normalizedValue": 0.00000001
+        },
+        "stock": 261,
+        "caseCode": "0603",
+        "type": "audioCap"
+    },
+    {
+        "id": "FBG",
+        "partNumber": "AE1-FJSIEG4531-34",
+        "manufacturer": "Kemet",
+        "partValues":{
+            "displayValue": 0.22,
+            "displayUnit": "pF",
+            "normalizedValue": 0.00000000022
+        },
+        "stock": 537,
+        "caseCode": "0603",
+        "type": "ceramicCap"
+    }
+]

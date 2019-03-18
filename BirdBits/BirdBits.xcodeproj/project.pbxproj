@@ -13,6 +13,26 @@
 		0AE8D9902224667900C022EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D98F2224667900C022EE /* Assets.xcassets */; };
 		0AE8D9932224667900C022EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D9912224667900C022EE /* LaunchScreen.storyboard */; };
 		0AE8D99E2224667A00C022EE /* BirdBitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D99D2224667A00C022EE /* BirdBitsTests.swift */; };
+		0AE8D9AE2224676900C022EE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9AD2224676900C022EE /* Home.swift */; };
+		0AE8D9B0222467A600C022EE /* Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D9AF222467A600C022EE /* Views.storyboard */; };
+		0AE8D9B2222467D400C022EE /* InventoryOverviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9B1222467D400C022EE /* InventoryOverviewList.swift */; };
+		0AE8D9B4222467EB00C022EE /* InventoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9B3222467EB00C022EE /* InventoryList.swift */; };
+		0AE8D9B6222467F700C022EE /* InventoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9B5222467F700C022EE /* InventoryDetail.swift */; };
+		0AE8D9B82224890300C022EE /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D9B72224890300C022EE /* HomeCell.xib */; };
+		0AE8D9BA2224895A00C022EE /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9B92224895A00C022EE /* HomeCell.swift */; };
+		0AE8D9BC22249D7000C022EE /* InventoryOverviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D9BB22249D7000C022EE /* InventoryOverviewCell.xib */; };
+		0AE8D9BE22249D7E00C022EE /* InventoryOverviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9BD22249D7E00C022EE /* InventoryOverviewCell.swift */; };
+		0AE8D9C12225926A00C022EE /* BuildCalcOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9C02225926A00C022EE /* BuildCalcOverview.swift */; };
+		0AE8D9C42225B1C600C022EE /* inventory_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D9C32225B1C600C022EE /* inventory_test.json */; };
+		0AE8D9C72225B56600C022EE /* PartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9C62225B56600C022EE /* PartModel.swift */; };
+		0AE8D9C92225B67E00C022EE /* PartValuesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9C82225B67E00C022EE /* PartValuesModel.swift */; };
+		0AE8D9CF2225CA6100C022EE /* InventoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8D9CE2225CA6100C022EE /* InventoryCell.xib */; };
+		0AE8D9D12225CA7300C022EE /* InventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9D02225CA7300C022EE /* InventoryCell.swift */; };
+		0AE8D9D6222ECC0B00C022EE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9D5222ECC0B00C022EE /* NetworkService.swift */; };
+		0AE8D9D8222ECC8300C022EE /* InventoryEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9D7222ECC8300C022EE /* InventoryEndpoint.swift */; };
+		0AE8D9DD222F68E300C022EE /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9DC222F68E300C022EE /* ResponseError.swift */; };
+		0AE8D9DF222F690200C022EE /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9DE222F690200C022EE /* InputError.swift */; };
+		0AE8D9E3222F6BB900C022EE /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8D9E2222F6BB900C022EE /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,26 @@
 		0AE8D9992224667A00C022EE /* BirdBitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdBitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE8D99D2224667A00C022EE /* BirdBitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdBitsTests.swift; sourceTree = "<group>"; };
 		0AE8D99F2224667A00C022EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE8D9AD2224676900C022EE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0AE8D9AF222467A600C022EE /* Views.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Views.storyboard; sourceTree = "<group>"; };
+		0AE8D9B1222467D400C022EE /* InventoryOverviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryOverviewList.swift; sourceTree = "<group>"; };
+		0AE8D9B3222467EB00C022EE /* InventoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryList.swift; sourceTree = "<group>"; };
+		0AE8D9B5222467F700C022EE /* InventoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryDetail.swift; sourceTree = "<group>"; };
+		0AE8D9B72224890300C022EE /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		0AE8D9B92224895A00C022EE /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		0AE8D9BB22249D7000C022EE /* InventoryOverviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InventoryOverviewCell.xib; sourceTree = "<group>"; };
+		0AE8D9BD22249D7E00C022EE /* InventoryOverviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryOverviewCell.swift; sourceTree = "<group>"; };
+		0AE8D9C02225926A00C022EE /* BuildCalcOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildCalcOverview.swift; sourceTree = "<group>"; };
+		0AE8D9C32225B1C600C022EE /* inventory_test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = inventory_test.json; sourceTree = "<group>"; };
+		0AE8D9C62225B56600C022EE /* PartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartModel.swift; sourceTree = "<group>"; };
+		0AE8D9C82225B67E00C022EE /* PartValuesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartValuesModel.swift; sourceTree = "<group>"; };
+		0AE8D9CE2225CA6100C022EE /* InventoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InventoryCell.xib; sourceTree = "<group>"; };
+		0AE8D9D02225CA7300C022EE /* InventoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCell.swift; sourceTree = "<group>"; };
+		0AE8D9D5222ECC0B00C022EE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0AE8D9D7222ECC8300C022EE /* InventoryEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryEndpoint.swift; sourceTree = "<group>"; };
+		0AE8D9DC222F68E300C022EE /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		0AE8D9DE222F690200C022EE /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
+		0AE8D9E2222F6BB900C022EE /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +117,9 @@
 		0AE8D9872224667300C022EE /* BirdBits */ = {
 			isa = PBXGroup;
 			children = (
+				0AE8D9C22225B19D00C022EE /* TestData */,
+				0AE8D9A9222466C500C022EE /* API */,
+				0AE8D9A8222466BA00C022EE /* Views */,
 				0AE8D9882224667300C022EE /* AppDelegate.swift */,
 				0AE8D98A2224667300C022EE /* ViewController.swift */,
 				0AE8D98C2224667300C022EE /* Main.storyboard */,
@@ -94,6 +137,103 @@
 				0AE8D99F2224667A00C022EE /* Info.plist */,
 			);
 			path = BirdBitsTests;
+			sourceTree = "<group>";
+		};
+		0AE8D9A8222466BA00C022EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9BF2225925400C022EE /* Build Calculator */,
+				0AE8D9AC2224674600C022EE /* Inventory */,
+				0AE8D9AB2224673700C022EE /* Home */,
+				0AE8D9AF222467A600C022EE /* Views.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0AE8D9A9222466C500C022EE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9E2222F6BB900C022EE /* APIConstants.swift */,
+				0AE8D9D5222ECC0B00C022EE /* NetworkService.swift */,
+				0AE8D9AA222466ED00C022EE /* Models */,
+				0AE8D9D4222ECBAF00C022EE /* Endpoints */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0AE8D9AA222466ED00C022EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9D9222F686200C022EE /* Errors */,
+				0AE8D9C52225B54E00C022EE /* Inventory */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0AE8D9AB2224673700C022EE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9AD2224676900C022EE /* Home.swift */,
+				0AE8D9B72224890300C022EE /* HomeCell.xib */,
+				0AE8D9B92224895A00C022EE /* HomeCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0AE8D9AC2224674600C022EE /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9B1222467D400C022EE /* InventoryOverviewList.swift */,
+				0AE8D9BB22249D7000C022EE /* InventoryOverviewCell.xib */,
+				0AE8D9BD22249D7E00C022EE /* InventoryOverviewCell.swift */,
+				0AE8D9B3222467EB00C022EE /* InventoryList.swift */,
+				0AE8D9CE2225CA6100C022EE /* InventoryCell.xib */,
+				0AE8D9D02225CA7300C022EE /* InventoryCell.swift */,
+				0AE8D9B5222467F700C022EE /* InventoryDetail.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		0AE8D9BF2225925400C022EE /* Build Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9C02225926A00C022EE /* BuildCalcOverview.swift */,
+			);
+			path = "Build Calculator";
+			sourceTree = "<group>";
+		};
+		0AE8D9C22225B19D00C022EE /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9C32225B1C600C022EE /* inventory_test.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		0AE8D9C52225B54E00C022EE /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9C62225B56600C022EE /* PartModel.swift */,
+				0AE8D9C82225B67E00C022EE /* PartValuesModel.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		0AE8D9D4222ECBAF00C022EE /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9D7222ECC8300C022EE /* InventoryEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		0AE8D9D9222F686200C022EE /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8D9DC222F68E300C022EE /* ResponseError.swift */,
+				0AE8D9DE222F690200C022EE /* InputError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +317,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE8D9CF2225CA6100C022EE /* InventoryCell.xib in Resources */,
 				0AE8D9932224667900C022EE /* LaunchScreen.storyboard in Resources */,
+				0AE8D9BC22249D7000C022EE /* InventoryOverviewCell.xib in Resources */,
+				0AE8D9B0222467A600C022EE /* Views.storyboard in Resources */,
 				0AE8D9902224667900C022EE /* Assets.xcassets in Resources */,
+				0AE8D9C42225B1C600C022EE /* inventory_test.json in Resources */,
 				0AE8D98E2224667300C022EE /* Main.storyboard in Resources */,
+				0AE8D9B82224890300C022EE /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +342,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE8D9B4222467EB00C022EE /* InventoryList.swift in Sources */,
+				0AE8D9BA2224895A00C022EE /* HomeCell.swift in Sources */,
+				0AE8D9C72225B56600C022EE /* PartModel.swift in Sources */,
 				0AE8D98B2224667300C022EE /* ViewController.swift in Sources */,
+				0AE8D9C92225B67E00C022EE /* PartValuesModel.swift in Sources */,
+				0AE8D9DF222F690200C022EE /* InputError.swift in Sources */,
+				0AE8D9BE22249D7E00C022EE /* InventoryOverviewCell.swift in Sources */,
+				0AE8D9AE2224676900C022EE /* Home.swift in Sources */,
+				0AE8D9B6222467F700C022EE /* InventoryDetail.swift in Sources */,
+				0AE8D9D12225CA7300C022EE /* InventoryCell.swift in Sources */,
+				0AE8D9C12225926A00C022EE /* BuildCalcOverview.swift in Sources */,
 				0AE8D9892224667300C022EE /* AppDelegate.swift in Sources */,
+				0AE8D9D8222ECC8300C022EE /* InventoryEndpoint.swift in Sources */,
+				0AE8D9DD222F68E300C022EE /* ResponseError.swift in Sources */,
+				0AE8D9E3222F6BB900C022EE /* APIConstants.swift in Sources */,
+				0AE8D9D6222ECC0B00C022EE /* NetworkService.swift in Sources */,
+				0AE8D9B2222467D400C022EE /* InventoryOverviewList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
