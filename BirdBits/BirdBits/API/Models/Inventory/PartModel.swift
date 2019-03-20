@@ -15,14 +15,13 @@ struct PartModel: Decodable {
         case partNumber
         case manufacturer
         case partValues
-        case stock
+        case count
         case caseCode
         case type
     }
-    let id: String
     let partNumber: String
     let manufacturer: String
-    let stock: Int
+    let count: Int
     let caseCode: String
     let type: String
     let partValues: PartValuesModel
@@ -30,10 +29,9 @@ struct PartModel: Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        id = try container.decode(String.self, forKey: .id)
-        partNumber = try container.decode(String.self, forKey: .partNumber)
+        partNumber = try container.decode(String.self, forKey: .id)
         manufacturer = try container.decode(String.self, forKey: .manufacturer)
-        stock = try container.decode(Int.self, forKey: .stock)
+        count = try container.decode(Int.self, forKey: .count)
         caseCode = try container.decode(String.self, forKey: .caseCode)
         type = try container.decode(String.self, forKey: .type)
         

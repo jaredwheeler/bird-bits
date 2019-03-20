@@ -24,7 +24,7 @@ class InventoryCell: UITableViewCell {
                 unitLabel.text = String(describing: partValues.displayUnit)
             }
             caseCodeLabel.text = part?.caseCode
-            if let partStock = part?.stock {
+            if let partStock = part?.count {
                 stockLabel.text = String(describing: partStock)
             }
             manufacturerLabel.text = part?.manufacturer

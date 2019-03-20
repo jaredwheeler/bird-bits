@@ -26,22 +26,7 @@ class InventoryList: UITableViewController {
         super.viewDidLoad()
         
         let cellID = String(describing: InventoryCell.self)
-        tableView.register(UINib(nibName: cellID, bundle: Bundle.main), forCellReuseIdentifier: cellID)
-        
-        if let path = Bundle.main.path(forResource: "inventory_test", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let responseModel = try JSONDecoder().decode([PartModel].self, from: data)
-                let nestedResponseModel = Dictionary(grouping: responseModel, by: {$0.type})
-                partData = nestedResponseModel
-                let nestedResponseKeys = Array(nestedResponseModel.keys)
-                let nestedSortedKeys = nestedResponseKeys.sorted(by: {$0 < $1})
-                sortedKeys = nestedSortedKeys
-            } catch {
-                //
-            }
-        }
-        
+        tableView.register(UINib(nibName: cellID, bundle: Bundle.main), forCellReuseIdentifier: cellID)        
     }
     
     private func partModel(for indexPath: IndexPath) -> PartModel? {

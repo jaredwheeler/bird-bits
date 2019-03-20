@@ -39,6 +39,8 @@ class InventoryOverviewList: UIViewController, UITableViewDelegate, UITableViewD
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let inventoryList = segue.destination as? InventoryList {
             inventoryList.selectedSortType = .all
+            inventoryList.sortedKeys = sortedKeys
+            inventoryList.partData = partData
         }
     }
     
